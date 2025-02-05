@@ -23,4 +23,4 @@ if pronta.lower() == 'sim':
     st.write(':red[*QUASE PRONTO*]')
     tm.sleep(2)
     st.write('Tudo pronto, agora namoramos amor, já que minha cor favorita é',' ', a,'minha comida favorita é',' ', b,'e nos apaixonamos na data de',' ', c,'e justamente por isso vamos namorar e nos casar futuramente')
-    st.header(':red[EU TE AMO]')
+    st.header(':red[*EU TE AMO*]')
