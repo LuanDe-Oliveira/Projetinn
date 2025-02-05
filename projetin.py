@@ -12,9 +12,9 @@ b = st.text_input(label = 'Qual minha comida :red[comida] favorita? (bateu vonta
 st.markdown('---')
 c = st.date_input('Quando começamos a ficar?', datetime.date(2025, 2, 5))
 st.markdown('---')
-pronta = st.text_input(label = 'Ta pronta para ser minha namorada?(escreva em minúsculas)')
+pronta = st.text_input(label = 'Ta pronta para ser minha namorada? (escreva em minúsculas)')
 if pronta.lower() == 'sim':
-  certeza = st.text_input(label = 'Tem certeza?(também em minúsculas)')
+  certeza = st.text_input(label = 'Tem certeza? (também em minúsculas)')
   if certeza.lower() == 'sim':
     st.write('Hmmm, me convenceu, meu amor, vou conferir suas respostas, espera um minutinho')
     time.sleep(2)
