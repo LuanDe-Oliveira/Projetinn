@@ -17,10 +17,10 @@ if pronta.lower() == 'sim':
   certeza = st.text_input(label = 'Tem certeza? (também em minúsculas)')
   if certeza.lower() == 'sim':
     st.write('Hmmm, me convenceu, meu amor, vou conferir suas respostas, espera um minutinho')
-    time.sleep(2)
+    tm.sleep(2)
     st.write(':red[*ANALIZANDO REPOSTAS*]')
-    time.sleep(2)
+    tm.sleep(2)
     st.write(':red[*QUASE PRONTO*]')
-    time.sleep(2)
+    tm.sleep(2)
     st.write('Tudo pronto, agora namoramos amor, já que minha cor favorita é',' ', a,'minha comida favorita é',' ', b,'e nos apaixonamos na data de',' ', c,'e justamente por isso vamos namorar e nos casar futuramente')
     st.header(':red[EU TE AMO]')
