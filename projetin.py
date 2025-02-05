@@ -6,7 +6,7 @@ st.title('Olá, :red[*meu amor*], tudo bem com você?')
 st.header('Preciso que :red[*você*] responda a esse questionário, se você errar vamos :red[*terminar*]')
 st.markdown('---')
 
-a = st.text_input(label = 'Qual a minha :purple[cor] favorita?')
+a = st.text_input(label = 'Qual a minha cor favorita?')
 st.markdown('---')
 b = st.text_input(label = 'Qual minha comida :red[comida] favorita? (bateu vontade de comer lasanha hoje...hmm...)')
 st.markdown('---')
