@@ -8,7 +8,7 @@ st.markdown('---')
 
 a = st.text_input(label = 'Qual a minha cor favorita?')
 st.markdown('---')
-b = st.text_input(label = 'Qual minha comida :red[comida] favorita? (bateu vontade de comer lasanha hoje...hmm...)')
+b = st.text_input(label = 'Qual minha comida comida favorita? (bateu vontade de comer lasanha hoje...hmm...)')
 st.markdown('---')
 c = st.date_input('Quando começamos a ficar?', datetime.date(2025, 2, 5))
 st.markdown('---')
