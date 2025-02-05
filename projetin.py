@@ -1,4 +1,4 @@
-import streamlit as st
+dimport streamlit as st
 import datetime
 import time as tm
 
@@ -24,6 +24,6 @@ if pronta.lower() == 'sim':
     tm.sleep(2)
     st.subheader(':red[*QUASE PRONTO*]')
     tm.sleep(2)
-    st.subheader('Tudo pronto, agora namoramos amor, já que minha cor favorita é',' ', a,'minha comida favorita é',' ', b,'e nos apaixonamos na data de',' ', c,'e justamente por isso vamos namorar e nos casar futuramente')
+    st.header('Tudo pronto, agora namoramos amor, já que minha cor favorita é',' ', a,'minha comida favorita é',' ', b,'e nos apaixonamos na data de',' ', c,'e justamente por isso vamos namorar e nos casar futuramente')
     tm.sleep(2)
     st.header(':red[*EU TE AMO*]')
